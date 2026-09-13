@@ -29,19 +29,11 @@ population = m
 
 for day in range(1, n + 1):       
     print(day, population)        
-    population = population * multiplier   
+    population = population * multiplier 
 
-    
-         
-        
-    
-   
-
-
-
-
-
-
-
+# С 2-мя параметрами:
+for i in range(100, 1000):  # перебираем числа от 100 до 999
+    if i % 10 == 7:         # используем остаток от деления на 10, для получения последней цифры
+        print(i)      
 
     
